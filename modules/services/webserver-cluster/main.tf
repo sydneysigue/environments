@@ -18,7 +18,7 @@ terraform {
 
 # ---------------------------------------------------------------------------------------------------------------------
 # GET THE LIST OF AVAILABILITY ZONES IN THE CURRENT REGION
-# Every AWS accout has slightly different availability zones in each region. For example, one account might have
+# Every AWS account has slightly different availability zones in each region. For example, one account might have
 # us-east-1a, us-east-1b, and us-east-1c, while another will have us-east-1a, us-east-1b, and us-east-1d. This resource
 # queries AWS to fetch the list for the current account and region.
 # ---------------------------------------------------------------------------------------------------------------------
